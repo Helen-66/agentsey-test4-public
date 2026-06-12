@@ -1,0 +1,19 @@
+- name: get_user_success
+  description: 获取用户信息成功
+  method: GET
+  path: /api/users/1
+  params: {}
+  expected_status: 200
+  expected_fields:
+    id: 1
+
+- name: create_user_success
+  description: 创建用户成功
+  method: POST
+  path: /api/users
+  body:
+    name: test_user
+    email: test@example.com
+  expected_status: 201
+  expected_fields:
+    name: test_user

@@ -1,0 +1,5 @@
+env: test
+base_url: https://test-api.example.com
+timeout: 10
+headers:
+  Content-Type: application/json

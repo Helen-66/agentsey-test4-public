@@ -1,0 +1,5 @@
+env: prod
+base_url: https://api.example.com
+timeout: 10
+headers:
+  Content-Type: application/json
