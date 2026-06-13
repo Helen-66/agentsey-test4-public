@@ -1,0 +1,6 @@
+env: dev
+base_url: https://infer-dev.agentsey.ai
+timeout: 10
+headers:
+  Content-Type: application/json
+  Accept: '*/*'
